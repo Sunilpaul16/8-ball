@@ -115,6 +115,7 @@
             if (question) {
                 const randomAnswer = answers[Math.floor(Math.random() * answers.length)];
 
+
                 answerElement.textContent = randomAnswer;
                 updateHistory(question, randomAnswer);
                 questionInput.value = '';
